@@ -1,0 +1,23 @@
+{
+    "project_name": "my-cool-project",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '') }}",
+    "project_short_description": "This is a cool ClearPeaks project",
+    "license": [
+        "none",
+        "MIT",
+        "Apache Software License 2.0",
+        "GNU GPL v3.0"
+    ],
+    "full_name": "Name Surname",
+    "email": "info@clearpeaks.com",
+    "team": [
+        "Big Data & Cloud",
+        "Advanced Analytics",
+        "Modern BI",
+        "Web",
+        "Oracle",
+        "Other"
+    ],
+    "create_dockerfile": "n",
+    "create_makefile": "n"
+}
