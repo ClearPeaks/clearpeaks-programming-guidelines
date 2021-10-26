@@ -8,11 +8,11 @@ In this repository, we only have the most generic project templates. You can fin
 
 | Team | Repository |
 | ---- | ----- |
-| Big Data and Cloud |  |
-| Advanced Analytics |  |
-| Web and mobile |  |
-| Oracle |  |
-| Modern BI |  |
+| Big Data and Cloud | [big-data-project-templates](https://github.com/ClearPeaksSL/big-data-project-templates) |
+| Advanced Analytics | [advanced-analytics-project-templates](https://github.com/ClearPeaksSL/advanced-analytics-project-templates) |
+| Web and mobile | [web-mobile-project-templates](https://github.com/ClearPeaksSL/web-mobile-project-templates) |
+| Oracle | [oracle-project-templates](https://github.com/ClearPeaksSL/oracle-project-templates) |
+| Modern BI | [modern-bi-project-templates](https://github.com/ClearPeaksSL/modern-bi-project-templates) |
 
 ## ✨ Get started
 
