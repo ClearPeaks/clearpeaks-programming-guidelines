@@ -6,6 +6,8 @@ The first thing every developer should do is **commenting** the code. This is th
 
 Another relevant recommendation is always **placing your code in a GitHub repository**. We have an unlimited free repository were we can keep in a single place all the code we developed, where any consultant can access, reuse, learn and even improve it. So please, keep track of your code placing it in a GitHub repository.
 
+Pay special attention while working with secrets and credentials. For security concerns, **never upload secrets/credentials** to any GitHub repo. If you do so, please, contact your PM or your TM if you don't know how to revert it.
+
 Moreover, GitHub repositories can (and should) have a **README** file where you can **explain what your code does and how anyone can install and run it**.
 
 Additionally to the GitHub repository, you can integrate **depandabot** to it if you have any dependency to automatically update to newer versions.

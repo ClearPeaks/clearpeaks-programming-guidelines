@@ -28,8 +28,8 @@ if not create_license:
 
 message = """
 The project has been successfully installed!\n\n
-Remember checking the CODING_GUIDELINES in https://github.com/ClearPeaksSL/clearpeaks-programming-guidelines/CONTRIBUTING.md and to
- upload your project to a GitHub repository!\n
+Remember checking the CODING_GUIDELINES in https://github.com/ClearPeaksSL/clearpeaks-programming-guidelines/CONTRIBUTING.md and to \
+upload your project to a GitHub repository!\n
 Contact Maintainers for help if needed.
 """
 

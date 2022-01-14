@@ -22,7 +22,7 @@ To run the project simply do:
 ```sh
 python {{ cookiecutter.project_slug }}
 ```
-{% if cookiecutter.create_makefile == "y" or cookiecutter.create_dockerfile == "y" +%}
+{% if cookiecutter.create_makefile == "y" or cookiecutter.create_dockerfile == "y" %}
 ## Alternative running methods
 
 As mentioned before, besides the regular Python execution, there are diverse ways to build and run this project.
@@ -42,7 +42,7 @@ Special file containing shell commands. There are several commands you can run:
 - make test: run flake8, isort and unit tests.
 - make run: run project.
 {% endif %}
-{% if cookiecutter.create_dockerfile == "y" +%}
+{% if cookiecutter.create_dockerfile == "y" %}
 ### Docker
 
 First, make sure you have already generated the requirements.txt. With pip-compile or make freeze.\
@@ -108,7 +108,7 @@ It is highly recommended to follow this steps:
 1. Commit your code before executing.
 2. Executing the command to a single file: `black {{ cookiecutter.project_slug }}/example.py`.
 3. Adapting or reverting if necessary.
-{% if cookiecutter.license != "none" +%}
+{% if cookiecutter.license != "none" %}
 # License
 
 Check [LICENSE](LICENSE).

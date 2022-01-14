@@ -1,6 +1,6 @@
 {
     "project_name": "my-cool-project",
-    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '') }}",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '')|replace('-', '_') }}",
     "project_short_description": "This is a cool ClearPeaks project",
     "license": [
         "none",

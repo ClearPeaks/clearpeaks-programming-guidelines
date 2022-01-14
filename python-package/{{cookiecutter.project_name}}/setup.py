@@ -45,11 +45,11 @@ setup(
     extras_require={
         "dev": dev_requires
     },
-    {%- if cookiecutter.license == "MIT" +%}
+    {%- if cookiecutter.license == "MIT" %}
     license="MIT",
-    {%- elif cookiecutter.license == "Apache Software License 2.0" +%}
+    {%- elif cookiecutter.license == "Apache Software License 2.0" %}
     license="Apache2",
-    {%- elif cookiecutter.license == "GNU GPL v3.0" +%}
+    {%- elif cookiecutter.license == "GNU GPL v3.0" %}
     license="GPLv3",
     {% endif %}
     zip_safe=False,
@@ -57,11 +57,11 @@ setup(
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Developers",
-        {%- if cookiecutter.license == "MIT" +%}
+        {%- if cookiecutter.license == "MIT" %}
         "License :: OSI Approved :: MIT License",
-        {%- elif cookiecutter.license == "Apache Software License 2.0" +%}
+        {%- elif cookiecutter.license == "Apache Software License 2.0" %}
         "License :: OSI Approved :: Apache Software License",
-        {%- elif cookiecutter.license == "GNU GPL v3.0" +%}
+        {%- elif cookiecutter.license == "GNU GPL v3.0" %}
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         {% endif %}
         "Natural Language :: English",
